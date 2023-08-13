@@ -1,0 +1,20 @@
+.mobile-actions {
+  font-size: 2.3rem;
+  padding: 1rem 0;
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--c-white);
+  box-shadow: var(--s-c-dark);
+}
+@media (min-width: 520px) {
+  .mobile-actions {
+    display: none;
+  }
+}
+.mobile-actions-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

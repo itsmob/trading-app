@@ -1,0 +1,47 @@
+.log-in {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.exit-login {
+  position: absolute;
+  top: 2rem;
+  right: 3rem;
+  font-size: 3rem;
+}
+.log-in-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.log-in-content h3 {
+  margin-bottom: 5rem;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.inputs label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.inputs label span {
+  display: block;
+}
+.inputs label input {
+  font-size: 2rem;
+  height: 4rem;
+  padding: 0 1rem;
+}
